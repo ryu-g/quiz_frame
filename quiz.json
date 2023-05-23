@@ -9,7 +9,7 @@
       "識別性",
       "警告性"
     ],
-    "correctChoice": 3,
+    "correctChoice": 1,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、ぼたんをクリックしたあとに表示します。"
   },
   {

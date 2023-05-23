@@ -3,7 +3,7 @@
 
 
 .DS_Store
-.parcel-cache
+.parcel-cache/
 
 ### Node ###
 # Logs

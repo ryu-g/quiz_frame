@@ -45,12 +45,15 @@ const shuffle = (list) =>{
 const addJudgeEvent = ( list, collectnum ) => { //void
   const n = Number(collectnum)
   for( let i = 0 ; i < list.length; i++){
+    console.log(`i: ${i}`)
+    console.log(`n: ${n}`)
     if( i == n ){
       list[i].addEventListener('click', () => {
         console.log("正解!")
         // selected = true
         view_quizDescription.classList = "description_display"
         reflesh_correctTimes()
+        makeDisabelAllChoiceButton( button_list )
       })
     }else{
       list[i].addEventListener('click', () => {
@@ -58,8 +61,11 @@ const addJudgeEvent = ( list, collectnum ) => { //void
         // selected = true
         view_quizDescription.classList = "description_display"
         reflesh_incorrectTimes()
+        makeDisabelAllChoiceButton( button_list )
       })
     }
+    const button_list = [choices_0, choices_1, choices_2, choices_3]
+    console.log(button_list)
   }
 }
 
@@ -96,7 +102,7 @@ view_genre.innerText = `Genre quizData_genre`
 const quizData_quizText = data[quizID].quizText
 view_quizText.innerText = quizData_quizText
 
-const quizData_correctChoice = data[quizID].correctChoice
+const quizData_correctChoice = data[quizID].correctChoice-1
 const quizData_choices = data[quizID].quizChoices
 choices_0.innerText = quizData_choices[0]
 choices_1.innerText = quizData_choices[1]
@@ -120,7 +126,7 @@ const promise = new Promise((resolve, reject) => {
   resolve( list )
 })
 promise.then(( resolve ) => {
-  addJudgeEvent( resolve, quizData_correctTimes )
+  addJudgeEvent( resolve, quizData_correctChoice )
 })
 
 // console.log( quiz_id )
@@ -135,4 +141,21 @@ promise.then(( resolve ) => {
 
 const main = () =>{
   
+}
+
+//すべてのボタンをdisableにする
+const makeDisabelAllChoiceButton = ( button_list ) => {
+  button_list.forEach( button => {
+    console.log(`button_list is ${ button.disabled }`)
+    button.setAttribute("disabled", true)
+  })
+}
+
+//すべてのボタンをableにする
+const makeAbelAllChoiceButton = ( button_list ) => {
+  button_list.forEach( button => {
+    console.log(`button_list is ${ button }`)
+    if(button.disabled === true)
+      button.removeAttribute("disabled")
+  })
 }

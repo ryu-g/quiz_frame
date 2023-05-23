@@ -600,20 +600,33 @@ const shuffle = (list)=>{
 //選択肢へのクリックイベント追加用
 const addJudgeEvent = (list, collectnum)=>{
     const n = Number(collectnum);
-    for(let i1 = 0; i1 < list.length; i1++)if (i1 == n) list[i1].addEventListener("click", ()=>{
-        console.log("正解!");
-        // selected = true
-        view_quizDescription.classList = "description_display";
-        reflesh_correctTimes();
-    });
-    else list[i1].addEventListener("click", ()=>{
-        console.log("ざんねん");
-        // selected = true
-        view_quizDescription.classList = "description_display";
-        reflesh_incorrectTimes();
-    });
+    for(let i1 = 0; i1 < list.length; i1++){
+        console.log(`i: ${i1}`);
+        console.log(`n: ${n}`);
+        if (i1 == n) list[i1].addEventListener("click", ()=>{
+            console.log("正解!");
+            // selected = true
+            view_quizDescription.classList = "description_display";
+            reflesh_correctTimes();
+            makeDisabelAllChoiceButton(button_list);
+        });
+        else list[i1].addEventListener("click", ()=>{
+            console.log("ざんねん");
+            // selected = true
+            view_quizDescription.classList = "description_display";
+            reflesh_incorrectTimes();
+            makeDisabelAllChoiceButton(button_list);
+        });
+        const button_list = [
+            choices_0,
+            choices_1,
+            choices_2,
+            choices_3
+        ];
+        console.log(button_list);
+    }
 };
-const SRC_FILE = '[\n  {\n    "id": "000",\n    "genre": 0,\n    "quizText": "鮮やかな赤･オレンジ･黄のように、注意を引き、目立つ色のことを????が高い色という",\n    "quizChoices": [\n      "誘目性",\n      "視認性",\n      "識別性",\n      "警告性"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "001",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "002",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "003",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "004",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "005",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "006",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "007",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "008",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "009",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "010",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "011",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "012",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "013",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "014",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "015",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "016",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "017",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "018",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "019",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "020",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  }\n]';
+const SRC_FILE = '[\n  {\n    "id": "000",\n    "genre": 0,\n    "quizText": "鮮やかな赤･オレンジ･黄のように、注意を引き、目立つ色のことを????が高い色という",\n    "quizChoices": [\n      "誘目性",\n      "視認性",\n      "識別性",\n      "警告性"\n    ],\n    "correctChoice": 1,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "001",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "002",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "003",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "004",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "005",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "006",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "007",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "008",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "009",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "010",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "011",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "012",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "013",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "014",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "015",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "016",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "017",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "018",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "019",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  },\n  {\n    "id": "020",\n    "genre": "Genre_name",\n    "quizText": "aaaaaa",\n    "quizChoices": [\n      "a",\n      "b",\n      "c",\n      "d:hogehoge"\n    ],\n    "correctChoice": 3,\n    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"\n  }\n]';
 const RESULT_FILE = "./result.json";
 const data = JSON.parse(SRC_FILE);
 const questionNumbers = generateNumberList(data);
@@ -640,7 +653,7 @@ const quizData_genre = data[quizID].genre;
 view_genre.innerText = `Genre quizData_genre`;
 const quizData_quizText = data[quizID].quizText;
 view_quizText.innerText = quizData_quizText;
-const quizData_correctChoice = data[quizID].correctChoice;
+const quizData_correctChoice = data[quizID].correctChoice - 1;
 const quizData_choices = data[quizID].quizChoices;
 choices_0.innerText = quizData_choices[0];
 choices_1.innerText = quizData_choices[1];
@@ -667,7 +680,7 @@ const promise = new Promise((resolve, reject)=>{
     resolve(list);
 });
 promise.then((resolve)=>{
-    addJudgeEvent(resolve, quizData_correctTimes);
+    addJudgeEvent(resolve, quizData_correctChoice);
 });
 // console.log( quiz_id )
 // console.log( quiz_genre )
@@ -678,6 +691,20 @@ promise.then((resolve)=>{
 // console.log( quiz_correctTimes )
 // console.log( quiz_incorrectTimes )
 const main = ()=>{};
+//すべてのボタンをdisableにする
+const makeDisabelAllChoiceButton = (button_list)=>{
+    button_list.forEach((button)=>{
+        console.log(`button_list is ${button.disabled}`);
+        button.setAttribute("disabled", true);
+    });
+};
+//すべてのボタンをableにする
+const makeAbelAllChoiceButton = (button_list)=>{
+    button_list.forEach((button)=>{
+        console.log(`button_list is ${button}`);
+        if (button.disabled === true) button.removeAttribute("disabled");
+    });
+};
 
 },{"./main.sass":"byLvE","fs":"jhUEF","assert":"f3tT4"}],"byLvE":[function() {},{}],"jhUEF":[function(require,module,exports) {
 "use strict";
