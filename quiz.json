@@ -1,0 +1,275 @@
+[
+  {
+    "id": "000",
+    "genre": 0,
+    "quizText": "鮮やかな赤･オレンジ･黄のように、注意を引き、目立つ色のことを????が高い色という",
+    "quizChoices": [
+      "誘目性",
+      "視認性",
+      "識別性",
+      "警告性"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "001",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "002",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "003",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "004",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "005",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "006",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "007",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "008",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "009",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "010",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "011",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "012",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "013",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "014",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "015",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "016",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "017",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "018",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "019",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  },
+  {
+    "id": "020",
+    "genre": "Genre_name",
+    "quizText": "aaaaaa",
+    "quizChoices": [
+      "a",
+      "b",
+      "c",
+      "d:hogehoge"
+    ],
+    "correctChoice": 3,
+    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+  }
+]

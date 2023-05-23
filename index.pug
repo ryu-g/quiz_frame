@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title quiz
+  body
+    section.quizView
+      h3  : 
+        span#quizID 000
+      h3 クイズジャンル : 
+        span#quizGenre 000
+      h3 問題
+      p#quizText これはクイズの問題文です
+      #answerInfo
+        p#correnctTimes 正解数 : 0
+        p#incorrenctTimes 不正解数 : 0
+      ol#quizChoices
+        button#choice_0
+        button#choice_1
+        button#choice_2
+        button#choice_3
+      h3 説明欄
+      p#quizDescription.description_hidden
+      
+      button#nextQuiz 次のクイズ
+
+    pre#viewer 
+    script(type = "module" src = "./main.js")
+    
