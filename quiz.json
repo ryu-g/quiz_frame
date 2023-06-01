@@ -1,7 +1,7 @@
 [
   {
     "id": "000",
-    "genre": 0,
+    "lesson": 0,
     "quizText": "鮮やかな赤･オレンジ･黄のように、注意を引き、目立つ色のことを????が高い色という",
     "quizChoices": [
       "誘目性",
@@ -14,260 +14,260 @@
   },
   {
     "id": "001",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "1 a",
+      "1 b",
+      "1 c",
+      "1 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "002",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "2 a",
+      "2 b",
+      "2 c",
+      "2 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "003",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "3 a",
+      "3 b",
+      "3 c",
+      "3 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "004",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "4 a",
+      "4 b",
+      "4 c",
+      "4 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "005",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "5 a",
+      "5 b",
+      "5 c",
+      "5 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "006",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "6 a",
+      "6 b",
+      "6 c",
+      "6 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "007",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "7 a",
+      "7 b",
+      "7 c",
+      "7 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "008",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "8 a",
+      "8 b",
+      "8 c",
+      "8 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "009",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "9 a",
+      "9 b",
+      "9 c",
+      "9 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "010",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "10 a",
+      "10 b",
+      "10 c",
+      "10 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "011",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "11 a",
+      "11 b",
+      "11 c",
+      "11 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "012",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "12 a",
+      "12 b",
+      "12 c",
+      "12 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "013",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "13 a",
+      "13 b",
+      "13 c",
+      "13 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "014",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "14 a",
+      "14 b",
+      "14 c",
+      "14 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "015",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "15 a",
+      "15 b",
+      "15 c",
+      "15 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "016",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "16 a",
+      "16 b",
+      "16 c",
+      "16 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "017",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "17 a",
+      "17 b",
+      "17 c",
+      "17 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "018",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "18 a",
+      "18 b",
+      "18 c",
+      "18 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "019",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "19 a",
+      "19 b",
+      "19 c",
+      "19 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
   },
   {
     "id": "020",
-    "genre": "Genre_name",
+    "lesson": "lesson_name",
     "quizText": "aaaaaa",
     "quizChoices": [
-      "a",
-      "b",
-      "c",
-      "d:hogehoge"
+      "20 a",
+      "20 b",
+      "20 c",
+      "20 d:hogehoge"
     ],
     "correctChoice": 3,
     "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
