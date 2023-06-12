@@ -3,31 +3,29 @@ import { readFileSync } from 'fs';
 const utils = require("./utils.js")
 
 //選択肢へのクリックイベント追加用
-const addJudgeEvent = ( list, collectnum ) => { 
-  const n = Number(collectnum)
+const addJudgeEvent = ( list ) => { 
   for( let i = 0 ; i < list.length; i++){
     console.log(`i: ${i}`)
-    console.log(`n: ${n}`)
-    if( i == n ){
-      list[i].addEventListener('click', () => {
+    console.log(`n: ${quizData_correctChoice}`)
+    
+    list[i].addEventListener('click', () => {
+      if( i == quizData_correctChoice ){
         console.log("正解!")
-        view_quizDescription.classList = "description_display"
         reflesh_correctTimes()
-        utils.makeDisabelAllChoiceButton( button_list )
-      })
-    }else{
-      list[i].addEventListener('click', () => {
-        console.log("ざんねん")
-        view_quizDescription.classList = "description_display"
+      }else{
+        console.log(`ざんねん 正解は${quizData_correctChoice}`)
         reflesh_incorrectTimes()
-        utils.makeDisabelAllChoiceButton( button_list )
-      })
-    }
+      }
+      view_quizDescription.classList = "description_display"
+      utils.makeDisabelAllChoiceButton( button_list )
+    })
     console.log(button_list)
   }
 }
 
-const SRC_FILE = readFileSync("./quiz.json", 'utf8')
+// const SRC_FILE = readFileSync("./quiz.json", 'utf8')
+const SRC_FILE = readFileSync("./dummy.json", 'utf8')
+
 const data = JSON.parse(SRC_FILE)
 const questionNumbers = utils.generateNumberList(data)
 const shuffledList = utils.shuffle(questionNumbers)
@@ -50,27 +48,27 @@ let button_list = [choices_0, choices_1, choices_2, choices_3]
 let quizID = 0
 let quizData_id = data[quizID].id
 let quizData_genre = data[quizID].lesson
-let quizData_correctChoice = data[quizID].correctChoice-1
+let quizData_correctChoice = data[quizID].correctChoice - 1
 let quizData_choices = data[quizID].quizChoices
 let quizData_quizDescription = data[quizID].quizDescription
 let quizData_quizText = data[quizID].quizText
 let quizData_correctTimes = 0
 
 const reflesh_quiz = () =>{
-  quizID = 0
+  quizID = Math.floor(Math.random()*20)
   quizData_id = data[quizID].id
   quizData_genre = data[quizID].genre
-  quizData_correctChoice = data[quizID].correctChoice-1
+  quizData_correctChoice = Number(data[quizID].correctChoice) - 1
   quizData_choices = data[quizID].quizChoices
   quizData_quizDescription = data[quizID].quizDescription
   quizData_quizText = data[quizID].quizText
   view_quizID.innerText = `id ${quizData_id}`
   view_genre.innerText = `Genre quizData_genre`
   view_quizText.innerText = quizData_quizText
-  choices_0.innerText = quizData_choices[0]
-  choices_1.innerText = quizData_choices[1]
-  choices_2.innerText = quizData_choices[2]
-  choices_3.innerText = quizData_choices[3]
+  choices_0.innerText = quizData_choices[0] ?? "-"
+  choices_1.innerText = quizData_choices[1] ?? "-"
+  choices_2.innerText = quizData_choices[2] ?? "-"
+  choices_3.innerText = quizData_choices[3] ?? "-"
   view_quizDescription.innerText = quizData_quizDescription
   choiceButtons = [choices_0, choices_1, choices_2, choices_3]
   utils.makeAbelAllChoiceButton(choiceButtons)
