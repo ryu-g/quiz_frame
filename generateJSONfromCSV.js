@@ -1,6 +1,3 @@
-// import { readFileSync } from 'fs'
-// import { writeFile } from 'fs'
-
 const fs = require("fs")
 
 const data = fs.readFileSync("./dummy_sample1.csv", 'utf8')
@@ -22,4 +19,4 @@ const csv2json = (csvArray) => {
 
 const json = csv2json(data)
 console.log(json)
-fs.writeFile("dummy.json", JSON.stringify(json, '', '  '), (err)=>{})
+fs.writeFile("dummy_2.json", JSON.stringify(json, '', '  '), (err)=>{})
