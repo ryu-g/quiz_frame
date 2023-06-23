@@ -1,11 +1,12 @@
 const fs = require("fs")
 
 const data = fs.readFileSync("./dummy_sample1.csv", 'utf8')
+const nest_target = null
 
 const csv2json = (csvArray) => {
-  let jsonArray = []
-  let RowArray = csvArray.split('\n')
-  let items = RowArray[0].split(',')
+  let jsonArray = []                  //からのオブジェクトを作成(行列)
+  let RowArray = csvArray.split('\n') //行ごとに分割(行,行,行,...)
+  let items = RowArray[0].split(',')  //各行内のアイテムを分割(item, item, item...)
   for(let i = 1; i < RowArray.length ; i++){
     let cellArray = RowArray[i].split(',')
     let line = new Object()
