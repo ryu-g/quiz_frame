@@ -2,9 +2,9 @@
   "name": "color_test",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "scripts": {
-    "dev": "parcel index.pug --open"
+    "dev": "parcel src/index.pug --open",
+    "build": "parcel build"
   },
   "author": "",
   "license": "ISC",

@@ -24,7 +24,7 @@ const addJudgeEvent = ( list ) => {
 }
 
 // const SRC_FILE = readFileSync("./quiz.json", 'utf8')
-const SRC_FILE = readFileSync("./dummy.json", 'utf8')
+const SRC_FILE = readFileSync("./src/dummy.json", 'utf8')
 
 const data = JSON.parse(SRC_FILE)
 const questionNumbers = utils.generateNumberList(data)

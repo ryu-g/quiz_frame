@@ -12,7 +12,7 @@ const csv2json = (csvArray) => {
     let line = new Object()
     for(let j = 0 ; j < items.length ; j++){
       line[items[j]] = cellArray[j]
-    }
+    } 
     jsonArray.push(line)
   }
   return jsonArray
