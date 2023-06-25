@@ -26,8 +26,8 @@ exports.generateNumberList = (item) =>{
 
 //番号ランダマイズ用
 exports.shuffle = (list) =>{
-  for(i = list.length -1;i>0;i--){
-    j = Math.floor(Math.random()*(i+1));
+  for(let i = list.length -1;i>0;i--){
+    let j = Math.floor(Math.random()*(i+1));
     [list[i], list[j]] = [list[j], list[i]]
   }
   return list 

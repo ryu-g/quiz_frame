@@ -4,12 +4,14 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.pug --open",
-    "build": "parcel build ./src/index.pug --public-url ./"
+    "build": "parcel build ./src/index.pug --public-url ./",
+    "start": "http-server -p 80 dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fs": "^0.0.1-security",
+    "http-server": "^14.1.1",
     "parcel": "^2.8.3",
     "pug": "^3.0.2",
     "sass": "^1.60.0"
