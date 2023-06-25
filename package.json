@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.pug --open",
-    "build": "parcel build"
+    "build": "parcel build ./src/index.pug --public-url ./"
   },
   "author": "",
   "license": "ISC",
