@@ -24,11 +24,11 @@ const addJudgeEvent = ( list ) => {
 }
 
 // const SRC_FILE = readFileSync("./quiz.json", 'utf8')
-const SRC_FILE = readFileSync("./src/dummy.json", 'utf8')
+const SRC_FILE = readFileSync("./src/quiz.json", 'utf8')
 
 const data = JSON.parse(SRC_FILE)
-const questionNumbers = utils.generateNumberList(data)
-const shuffledList = utils.shuffle(questionNumbers)
+// const questionNumbers = utils.generateNumberList(data)
+// const shuffledList = utils.shuffle(questionNumbers)
 // const event_answer = new Event('answer')
 
 const view_quizID = document.getElementById('quizID')
@@ -55,7 +55,8 @@ let quizData_quizText = data[quizID].quizText
 let quizData_correctTimes = 0
 
 const reflesh_quiz = () =>{
-  quizID = Math.floor(Math.random()*20)
+  quizID = Math.floor(Math.random()*193)
+  console.log(`quizID is ${quizID}`)
   quizData_id = data[quizID].id
   quizData_genre = data[quizID].genre
   quizData_correctChoice = Number(data[quizID].correctChoice) - 1

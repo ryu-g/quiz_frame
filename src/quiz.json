@@ -1,275 +1,1562 @@
 [
   {
     "id": "000",
-    "lesson": 0,
-    "quizText": "鮮やかな赤･オレンジ･黄のように、注意を引き、目立つ色のことを????が高い色という",
-    "quizChoices": [
-      "誘目性",
-      "視認性",
-      "識別性",
-      "警告性"
-    ],
-    "correctChoice": 1,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "緊急時の警報ボタンや消火器、AEDなど、注意を引き、目立つ色の性質を？？？？という。",
+    "quizChoices": ["視認性", "誘目性", "識別性", "恒常性" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
   },
   {
     "id": "001",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "1 a",
-      "1 b",
-      "1 c",
-      "1 d:hogehoge"
-    ],
+    "lesson": "1",
+    "quizText": "誘目性のある色の代表を選択肢から選べ。",
+    "quizChoices": ["青・緑・紫", "白・黄色・黄緑", "赤・オレンジ・黄色", "白・黒" ],
     "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "quizDescription": "なし"
   },
   {
     "id": "002",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "2 a",
-      "2 b",
-      "2 c",
-      "2 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "交通標識などのように、遠くからでもよく見える色の性質を？？？？という。",
+    "quizChoices": ["視認性", "誘目性", "識別性", "恒常性" ],
+    "correctChoice": 1,
+    "quizDescription": "なし"
   },
   {
     "id": "003",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "3 a",
-      "3 b",
-      "3 c",
-      "3 d:hogehoge"
-    ],
+    "lesson": "1",
+    "quizText": "遠くからでもよく見えるためには、特に背景色と文字や図柄に使う色の？？？？を大きくすると効果的である。",
+    "quizChoices": ["色味の違い", "鮮やかさの違い", "明るさの違い", "価値観の違い" ],
     "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "quizDescription": "なし"
   },
   {
     "id": "004",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "4 a",
-      "4 b",
-      "4 c",
-      "4 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "最も遠くからでもよく見える色の組み合わせを選択肢から選べ。",
+    "quizChoices": ["黒と黄", "白と黄", "青と紫", "赤と緑" ],
+    "correctChoice": 1,
+    "quizDescription": "なし"
   },
   {
     "id": "005",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "5 a",
-      "5 b",
-      "5 c",
-      "5 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "一般に赤・オレンジ・黄は遠ざかって見える後退色である",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
   },
   {
     "id": "006",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "6 a",
-      "6 b",
-      "6 c",
-      "6 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "同じ大きさでも背景色に対して暗い色のほうが膨張して大きく見える",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
   },
   {
     "id": "007",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "7 a",
-      "7 b",
-      "7 c",
-      "7 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "黒と黄、白と黒、白と青、白と緑などは高い視認性が得られる。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "なし"
   },
   {
     "id": "008",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "8 a",
-      "8 b",
-      "8 c",
-      "8 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "安全標識に使われている「安全色彩」はJAFCA(日本流行色協会)によって色と配色が定められている",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
   },
   {
     "id": "009",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "9 a",
-      "9 b",
-      "9 c",
-      "9 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "複数の対象の色を変えることで、それらを区別しやすくすることを識別性という。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "なし"
   },
   {
     "id": "010",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "10 a",
-      "10 b",
-      "10 c",
-      "10 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "色の感情効果のうち、「強い・弱い」といった感覚や、「硬い・柔らかい」「重い・軽い」などモノの力や能力を感じさせる効果のことを？？？？という。",
+    "quizChoices": ["力量性", "活動性", "評価性", "誘目性" ],
+    "correctChoice": 1,
+    "quizDescription": "なし"
   },
   {
     "id": "011",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "11 a",
-      "11 b",
-      "11 c",
-      "11 d:hogehoge"
-    ],
+    "lesson": "1",
+    "quizText": "？？？は、地域や時代、年齢や性別における違いが大きく表れやすく、個人差が出やすい。",
+    "quizChoices": ["力量性", "活動性", "評価性", "誘目性" ],
     "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "quizDescription": "なし"
   },
   {
     "id": "012",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "12 a",
-      "12 b",
-      "12 c",
-      "12 d:hogehoge"
-    ],
+    "lesson": "1",
+    "quizText": "低年齢では現職蝶の鮮やかな色や明るい色が好まれるが、加齢とともに？？？色や暗い色への好みがます",
+    "quizChoices": ["透明感のある", "蛍光色調の", "グレイッシュな", "黄みのある" ],
     "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "quizDescription": "なし"
   },
   {
     "id": "013",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "13 a",
-      "13 b",
-      "13 c",
-      "13 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "私たちの周りにある食べ物、衣服、家具などには不透明な色と透明な色があるが、これらを？？？という。",
+    "quizChoices": ["蛍光色", "物体色", "自然色", "人工色" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
   },
   {
     "id": "014",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "14 a",
-      "14 b",
-      "14 c",
-      "14 d:hogehoge"
-    ],
+    "lesson": "1",
+    "quizText": "人に見える電磁波を？？？？といい、その波長の長さは約380mm~780nmである。",
+    "quizChoices": ["紫外線", "赤外線", "可視光線", "X線" ],
     "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "quizDescription": "なし"
   },
   {
     "id": "015",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "15 a",
-      "15 b",
-      "15 c",
-      "15 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "光の分光分布や目の特性が変わると物の色は変化して見えるので、光と眼の特性を一定にすることが重要である",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "なし"
   },
   {
     "id": "016",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "16 a",
-      "16 b",
-      "16 c",
-      "16 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "イチゴやトマトが赤いのは、白光色の中に含まれる「赤い光」だけを吸収しているからである",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
   },
   {
     "id": "017",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "17 a",
-      "17 b",
-      "17 c",
-      "17 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "同じ商品でも色の違いにより売れ行きが異なることがあるが、それは生活意識の変化とは全く関係ない",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
   },
   {
     "id": "018",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "18 a",
-      "18 b",
-      "18 c",
-      "18 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "色を計測する際に使用する光は「標準イルミナント」と呼ばれ、国際的に定められている。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "なし"
   },
   {
     "id": "019",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "19 a",
-      "19 b",
-      "19 c",
-      "19 d:hogehoge"
-    ],
-    "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "lesson": "1",
+    "quizText": "色名による伝達制度は数百万色と言われている。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
   },
   {
     "id": "020",
-    "lesson": "lesson_name",
-    "quizText": "aaaaaa",
-    "quizChoices": [
-      "20 a",
-      "20 b",
-      "20 c",
-      "20 d:hogehoge"
-    ],
+    "lesson": "1",
+    "quizText": "業者に発注した製品の色が色見本と合わない場合は、物理的条件を一致させるだけで解決する",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
+  },
+  {
+    "id": "021",
+    "lesson": "1",
+    "quizText": "眼に入った光が信号に変更された瞬間に、人は「色」を認識することができる",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
+  },
+  {
+    "id": "022",
+    "lesson": "1",
+    "quizText": "色彩の調和感は、時代、地域、性別、物の別などによって異なり、色彩調和の決定的な理論はない",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "なし"
+  },
+  {
+    "id": "023",
+    "lesson": "1",
+    "quizText": "景気の良し悪しによって、同じ商品の中で売れる色が左右されることはない。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "なし"
+  },
+  {
+    "id": "024",
+    "lesson": "1",
+    "quizText": "色の基礎を学び、色を読む力をつけることは、自らの創造性を生かした心地の良い色の世界を創造するうえで重要である。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "なし"
+  },
+  {
+    "id": "025",
+    "lesson": "1",
+    "quizText": "鮮やかな赤･オレンジ･黄のように、注意を引き、目立つ色のことを????という。",
+    "quizChoices": ["誘目性", "視認性", "識別性", "警告性" ],
+    "correctChoice": 1,
+    "quizDescription": "正解は誘目性。｢注意を引く｣で警告性かと思われがちだが、警告性誤り。\n視認性は明度差により生じる見やすさ、識別性はもう少し広く、様々な要素の中からある要素を色で区別しやすくすい性質のこと。"
+  },
+  {
+    "id": "026",
+    "lesson": "1",
+    "quizText": "交通標識などが遠くからでもよく読める性質のことを????という",
+    "quizChoices": ["誘目性", "視認性", "識別性", "警告性" ],
+    "correctChoice": 2,
+    "quizDescription": "正解は視認性。黒&黄色、黒&白、青&白、緑&白など、明度差が大きい組み合わせが｢視認性の高い組み合わせ｣と言える。(すくなくともこの教材では。)\n誘目性が高い色は鮮やかな色で目立つ色。\n識別性は様々な要素の中からある要素を色で区別しやすくすい性質のこと。"
+  },
+  {
+    "id": "027",
+    "lesson": "1",
+    "quizText": "物理的には同じ大きさでも、より大きく見える色を????という",
+    "quizChoices": ["縮小色", "拡張色", "膨張色", "高輝色" ],
     "correctChoice": 3,
-    "quizDescription": "クイズの答えが表示される場所です。最初はJSで非表示にして、｢回答する｣ぼたんをクリックしたあとに表示します。"
+    "quizDescription": "正解は膨張色。反対は収縮色。"
+  },
+  {
+    "id": "028",
+    "lesson": "1",
+    "quizText": "物理的には同じ大きさでも、より小さくみえる色を????と言う",
+    "quizChoices": ["膨張色", "縮小色", "吸収色", "収縮色" ],
+    "correctChoice": 4,
+    "quizDescription": "正解は収縮色。反対は膨張色。"
+  },
+  {
+    "id": "029",
+    "lesson": "1",
+    "quizText": "色による複数の対象の区別のしやすさのことを????という",
+    "quizChoices": ["区別性", "判別性", "識別性", "視認性" ],
+    "correctChoice": 3,
+    "quizDescription": "正解は識別性。様々な要素の中からある要素を色で区別しやすくすい性質のこと。\n視認性は遠くからでもよく見えるような配色により得られる性質のこと。"
+  },
+  {
+    "id": "030",
+    "lesson": "1",
+    "quizText": "人の感情を左右する色の効果のうち、ものの力や能力を感じさせる効果を????という",
+    "quizChoices": ["力量性", "加力性", "強弱性", "能力性" ],
+    "correctChoice": 1,
+    "quizDescription": "強弱感や硬さ･軟らかさ(硬軟感)の他、軽さ･重さ(軽重感)などを与える性質のことをいい、国や地域･時代の違いや年齢/性の違いに左右されにくい性質。\n\n逆に、地域や慣習･年齢や性別によって印象が変わりやすい性質に、｢評価性｣がある"
+  },
+  {
+    "id": "031",
+    "lesson": "1",
+    "quizText": "人の感情を左右する色の効果のうち、動感や活発性を感じさせる効果を????という",
+    "quizChoices": ["動的性", "感動性", "活動性", "感情性" ],
+    "correctChoice": 3,
+    "quizDescription": "派手さや地味さ、情熱的･知的･陽気･陰気などを含み、国や地域･時代の違いや年齢･性の違いに左右されにくい性質。\n\n逆に、地域や慣習･年齢や性別によって印象が変わりやすい性質に、｢評価性｣がある。"
+  },
+  {
+    "id": "032",
+    "lesson": "1",
+    "quizText": "人の感情を左右する色の効果のうち、好き嫌いや美醜を感じさせる効果を????という",
+    "quizChoices": ["評価性", "感受性", "活動性", "力量性" ],
+    "correctChoice": 1,
+    "quizDescription": "正解は評価性。個人的な感覚であり、地域や時代･年齢や性別などによって違いが大きい。水色は多くの人に軽い印象や冷静な印象を与えやすいが、好みとなると当然分かれる。\n｢活動性｣は動感や活発性を感じさせる効果で、｢力量性｣は強弱感や軽重感などを感じさせる効果。活動性や力量性は地域や時代によって印象が変わりにくい。"
+  },
+  {
+    "id": "033",
+    "lesson": "1",
+    "quizText": "色の力量性を表す効果を利用したものに、カメラの色を黒くして高級感･高機能のイメージをもたせた例がある。",
+    "quizChoices": ["◯", "✕", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "黒色が持つプラスイメージには重厚感･高級感･機能性に優れたイメージがあるとされる"
+  },
+  {
+    "id": "034",
+    "lesson": "1",
+    "quizText": "商品の色が好まれたり嫌われたりして、売れ行きが左右するのは、色の｢活動性｣の効果による",
+    "quizChoices": ["◯", "✕", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "好き嫌いや美醜を感じるのは｢色の評価性｣によるもので、この性質(効果)は商品の売れ行きを左右する。活動性は動きの感じや活発さを感じさせる効果のことで、商品等の売れ行きに影響を与える可能性はあるが、理由は｢好き嫌い｣ではない。"
+  },
+  {
+    "id": "035",
+    "lesson": "1",
+    "quizText": "日本色彩研究所の調査によると、男性は多様な色を好む傾向にあるが、女性の好みの範囲は狭い",
+    "quizChoices": ["◯", "✕", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "逆。多様な色を好む傾向があるのは女性で、男性の好みの色の幅が狭い傾向があるとされる。"
+  },
+  {
+    "id": "036",
+    "lesson": "1",
+    "quizText": "日本色彩研究所の調査によると、色の好みは低年齢では原色調の鮮やかなものや、明るいものが好まれる傾向がある。",
+    "quizChoices": ["◯", "✕", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "低年齢ほど高彩度で高輝度なものが好まれ、高年齢ほど低彩度でグレイッシュな色や暗い色が好まれるという報告がある。"
+  },
+  {
+    "id": "037",
+    "lesson": "1",
+    "quizText": "どの色にもプラスイメージとマイナスイメージがあり、同じものでも色を変えるとイメージが変わることがある",
+    "quizChoices": ["◯", "✕", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "色のイメージを活用するには、色のマイナスイメージをおさえてプラスイメージを最大限に使うことが重要とされる。\n例えば赤やピンクは女性的で可愛らしいイメージ等がある一方で、派手なものには暴力的なイメージがある。緑系はナチュラルなイメージや品格感がある一方、田舎臭さや泥臭さ･質素感を与える場合がある。"
+  },
+  {
+    "id": "038",
+    "lesson": "1",
+    "quizText": "電磁波のうち、目に見える波長範囲は約3800nm~7800nmである。",
+    "quizChoices": ["◯", "✕", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "実際の可視光線の波長範囲は380nm~780nm。380未満を紫外線、780以上が赤外線。紫外線および赤外線は目に見えない。\n3800nm~7800nmに該当するものは中赤外線で、近赤外線や遠赤外線と比較して有機化学物質などの分光分析に利用される波長域。中赤外線はおよそ2500 nmから約25,000 nmまでの間の波長。"
+  },
+  {
+    "id": "039",
+    "lesson": "1",
+    "quizText": "国際的に定められた、光を受ける目の特性のことを、標準観測者という",
+    "quizChoices": ["◯", "✕", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "暗記対象: 基準観測者ともいう。\n 物体の｢色｣や｢光の明るさ｣は視覚によって感じる｢感覚的な量｣であり、物理的定量的測定が不可能であり、また個人差もあるため、正常な視覚をもつ多数の観測者による色感または視感のテスト結果をもとに、平均的な視感度および分光感度をもつ仮想的な観測者を国際照明委員会によって設定している。\n物体の色の値は｢周囲の光の状態｣｢個人差がある眼の性能｣｢物体の性質｣により構成されるとしている。"
+  },
+  {
+    "id": "040",
+    "lesson": "1",
+    "quizText": "同じ商品でも、購入者の性別や年齢によって売れる色が異なることはあるが、景気の善し悪しで売れる色が変化することはない。",
+    "quizChoices": ["◯", "✕", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "景気の良し悪しも含め、自然災害の経験や技術の発達などによる時代の変化によって生活様式や意識･価値観が変化し、選択されやすい色(つまり好みの色)は変わりやすい。\nおおよそ色の評価性によるもので、人種や年齢･性別によっても左右される。"
+  },
+  {
+    "id": "041",
+    "lesson": "1",
+    "quizText": "物体色には透明色と????がある",
+    "quizChoices": ["半透明色", "不透明色", "過透過色", "原色" ],
+    "correctChoice": 2,
+    "quizDescription": "不透明色が正解。透明色は透過光を、不透明色は反射光を知覚していると考えると良い。赤い半透明のグラスは光の透過によって、バラは反射光で赤く見える。"
+  },
+  {
+    "id": "042",
+    "lesson": "1",
+    "quizText": "光は目に見える電磁波で、?????と呼ばれる。",
+    "quizChoices": ["マイクロ波", "色彩磁場", "色波", "可視光線" ],
+    "correctChoice": 4,
+    "quizDescription": "光は電磁波の一部で、電磁波のうち目に見える波長範囲のものを可視光線という。可視光線の周囲の範囲の波長には紫外線･可視光線･マイクロ波などがある。"
+  },
+  {
+    "id": "043",
+    "lesson": "1",
+    "quizText": "色を計測する際に使用する光を??????と言い、CIE(国際照明委員会)が定めている。",
+    "quizChoices": ["標準イルミナント", "標準分光温度", "分光基準輝度", "基準ルーメン" ],
+    "correctChoice": 1,
+    "quizDescription": "標準イルミナントが正解。CIE標準光源･D光源とも言う。欧州/北欧における平均的な正午の光を代表する｢D65｣という名称の光が用いられる。\n実際のD65光源というのは存在せず、D65光源をシミュレートする疑似光源しか存在しない。\n相関色温度は6500Kではなく6504K\n白熱タングステン電球を色温度 2854Kで点灯したA光源、紫外域の再現性が悪く現在は規定から外されて使われていないB光源、色温度6774ケルビンで青空を含む昼光に相当するとしてかつて使われていたC光源などもあるが、現在はD65光源がメインで用いられている。"
+  },
+  {
+    "id": "044",
+    "lesson": "1",
+    "quizText": "物の色の値を定めるには、光、｢????｣、物の3つの要素が必要となる。",
+    "quizChoices": ["温度", "気圧", "眼", "光束" ],
+    "correctChoice": 3,
+    "quizDescription": "眼が正解。ものの色の数値を定めるのに必要な値である光の特性･眼の特性は、いずれも国際的に決められている。\n人によって眼が色を知覚する具合は変わるため、平均的な眼の特性と｢標準観測者｣として定めている。"
+  },
+  {
+    "id": "045",
+    "lesson": "1",
+    "quizText": "ものの色を色名により伝達する方法では、伝達制度は????色程度である",
+    "quizChoices": ["数十色", "数百色", "数千色", "数百万色"],
+    "correctChoice": 2,
+    "quizDescription": "数百色とされる。色の三属性(HSV)により方法では数千色、光の三原色(RGB)による伝達制度は数百万色まで可能とされる。\nHSVは色相の指定が360通りに絞られており、表現可能数が360x100^2通りで3,600,000通りであり、そのうち分類してで伝達可能なのが数千色とされている。RGBは256^3通りで16,777,216通りの表現が可能で、少なくとも数百万色分は分類して伝達できるとしている。"
+  },
+  {
+    "id": "046",
+    "lesson": "1",
+    "quizText": "ものから反射または透過した光が目に入る寸前までは?????現象であるが、まだ色としての感覚はない。",
+    "quizChoices": ["知覚的", "物理的", "反射的", "心理的" ],
+    "correctChoice": 2,
+    "quizDescription": "物理的現象が正解。\n色の世界は光･眼･物体を通じて感じるが、眼に入った光が信号に変換され、脳に送られて初めて色として認識され、知覚できるようになる。"
+  },
+  {
+    "id": "047",
+    "lesson": "1",
+    "quizText": "注文したときの色と出来上がった製品の色が異なることの原因に、背景色の違いや面積の違いなど、????な条件の違いによる場合がある。",
+    "quizChoices": ["物理的", "知覚的", "光学的", "心理的" ],
+    "correctChoice": 4,
+    "quizDescription": "心理的な条件が正解。私達が感じる色は、物理的現象と心理的現象の両方が関わっているので、両方をよく理解する必要がある。"
+  },
+  {
+    "id": "048",
+    "lesson": "1",
+    "quizText": "心地よく美しいと感じる色の調和は、どのようにしたら得られるのかなどを論じる学問を?????という",
+    "quizChoices": ["分光調和論", "光学調和論", "色彩調和論", "知覚調和論" ],
+    "correctChoice": 3,
+    "quizDescription": "色彩調和論が正解。\n古代よりより多くの研究者が色彩調和の法則を探っている。決定的なものはないが、先人の理論には学ぶ点が多いとされる。"
+  },
+  {
+    "id": "049",
+    "lesson": "2",
+    "quizText": "すべての色は｢色み｣を感じる???と、｢色身｣を感じない???に大きく分類できる",
+    "quizChoices": ["彩色と鈍色", "基色と序色", "有色と無色", "有彩色と無色" ],
+    "correctChoice": 4,
+    "quizDescription": "有彩色と無彩色が正解。赤みや黄み，青みのような色味を感じるものを有彩色とい、白や灰色、黒色のようなものを無彩色として大別する。\n茶色は有彩色。無彩色は彩度･色相がなく、明度のみで表現されたものと理解してよい。"
+  },
+  {
+    "id": "050",
+    "lesson": "2",
+    "quizText": "色には人が感じ分けることができる???･???･???という｢色の三属性｣がある",
+    "quizChoices": ["赤･緑･青", "色相･彩度･明度", "輝度･照度･光度", "シアン･マゼンタ･イエロー"],
+    "correctChoice": 2,
+    "quizDescription": "1は光の三原色(加法混色)\n2が色の三属性\n3は光の単位系(ルーメン･ルクス･カンデラ)\n4は色の三原色(減法混色)"
+  },
+  {
+    "id": "051",
+    "lesson": "2",
+    "quizText": "色と黒の混色によりつくられた、見た目が知覚的等歩度になる灰色段階のことを???という",
+    "quizChoices": ["輝尺度", "明度スケール", "無彩色スケール", "シャドウ" ],
+    "correctChoice": 2,
+    "quizDescription": "明度スケールが正解。白と黒の間で構成される無彩色の場合は明度の段階の目安としてわかりやすい一方で、有彩色の明度の段階を指標なしに考えるのは難しい。そこで有彩色に黒色をどの程度混ぜるかという考えを元に明度の物差しとして活用する。"
+  },
+  {
+    "id": "052",
+    "lesson": "2",
+    "quizText": "色の三属性の要素を配列した三次元空間のことを????という",
+    "quizChoices": ["色立体", "HUE環", "マンセル表色系", "色空間" ],
+    "correctChoice": 4,
+    "quizDescription": "4の色空間が正解。色空間の中に実際の色見本(色票という)を規則的に収めた立体模型のことを色立体という。\nHUE環(または色相環、hue circle)は色相のみを対象に配列したものなので当てはまらない。\nマンセル表色系は色相環の形態の一つ。色相環のうち他の種類のものにはオストワルト表色系、PCCSなどがある。"
+  },
+  {
+    "id": "053",
+    "lesson": "2",
+    "quizText": "ひとつの色相について明度と彩度に応じた変化を同一面で表したものを?????という",
+    "quizChoices": ["単一色相面", "単色彩面", "等色相面", "単彩面" ],
+    "correctChoice": 3,
+    "quizDescription": "等色相面が正解。色立体の無彩色軸を通る垂直断面には、、無彩色軸を挟んで左右が捕食の関係となる一対の等色相面が得られる。"
+  },
+  {
+    "id": "054",
+    "lesson": "2",
+    "quizText": "各色相で、白みも黒みも混ざっていない最も鮮やかな色のことを????という",
+    "quizChoices": ["暗清色", "清色", "純色", "明清色" ],
+    "correctChoice": 3,
+    "quizDescription": "純色が正解。ピュアカラーとも言う。\n暗青色は純色に黒だけを混ぜた色、明清色は純色に白だけを混ぜた色を言い、その2つをあわせて清色と言う。"
+  },
+  {
+    "id": "055",
+    "lesson": "2",
+    "quizText": "濁色(ダルカラー)とは、?????に????を混ぜた、くすんだ調子の色のことを言う",
+    "quizChoices": ["純色に白と黒を混ぜたもの", "白に純色を混ぜたもの", "黒に純色を混ぜたもの", "清色" ],
+    "correctChoice": 1,
+    "quizDescription": "純色に白と黒を混ぜたものが正解。\n灰色を混ぜるとも表現される(白と黒の分量次第)。等色相面を構成すえう有彩色は、大きく純色(ピュアカラー)･清色(クリアカラー)･濁色(ダルカラー)の3つに分けられる。\n清色は純色に白か黒の一方を混ぜたもの、濁色は純色に白と黒の両方を混ぜたものと覚えるとよい"
+  },
+  {
+    "id": "056",
+    "lesson": "2",
+    "quizText": "JIS(日本産業規格)では、三属性よる色の表示方法では????が採用されている。",
+    "quizChoices": ["マンセル表色系", "オストワルト表色系", "PCCS", "DIN表色系" ],
+    "correctChoice": 1,
+    "quizDescription": "マンセル表色系が正解。マンセル系はアメリカで生み出された。\nオストワルト表色系には明度や彩度という概念はなく、明度に相当するものを「白色量」、彩度に相当するものを「純色量」として扱う。\nPCCSでは、｢色相｣｢明度｣｢彩度｣の三属性で色を表す方法の他に、｢明度｣と｢彩度｣を融合した｢トーン(色調)｣という概念を持っている。\nDIN表色系では、色は｢色相｣｢明度｣｢飽和度｣で表現される。マンセル表色系と異なり、色相は黄から始まる。"
+  },
+  {
+    "id": "057",
+    "lesson": "2",
+    "quizText": "色を数値や記号を使って体系化し、あるいろ空間に矛盾なく配列したものを????という",
+    "quizChoices": ["色の三原色", "表色系", "色彩表", "彩色表" ],
+    "correctChoice": 2,
+    "quizDescription": "表色系が正解。カラーシステムとも。\n色を数値や記号で表すことを｢表色する｣と表現される。それを体系化し、あるいろ空間に矛盾なく配列したものが｢表色系｣と呼ばれる。"
+  },
+  {
+    "id": "058",
+    "lesson": "2",
+    "quizText": "長い歴史の中から自然発生的に生まれてきた色名群に?????などがある。",
+    "quizChoices": ["基本色彩語", "自然色彩", "JIS系統色名", "マンセル表色" ],
+    "correctChoice": 1,
+    "quizDescription": "基本色彩語が正解。固有色名とも言う。バーリンとケイの調査により作られたらしい。\n\nマンセル表色系はJIS(日本産業規格)で採用されている、色の三属性(色相･彩度･明度)による表示方法である。"
+  },
+  {
+    "id": "059",
+    "lesson": "2",
+    "quizText": "古くから受け継がれ、伝えられてきた由緒ある固有色名のことを?????と言う",
+    "quizChoices": ["流行色名", "古色名", "", "伝統色名" ],
+    "correctChoice": 4,
+    "quizDescription": "伝統色名が正解。流行職名は、時代背景によって左右される色のこと"
+  },
+  {
+    "id": "060",
+    "lesson": "2",
+    "quizText": "色味、明るさ、鮮やかさ、という色に備わった３つの心理的な要素を？？？という",
+    "quizChoices": ["色相環", "基本色彩語", "色の三属性", "色の印象"],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": "061",
+    "lesson": "2",
+    "quizText": "白みや黒みを含まない最も純度の高い色を？？？といい、それぞれの色相を代表する。",
+    "quizChoices": ["清色", "純色", "濁色", "原色" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": "062",
+    "lesson": "2",
+    "quizText": "全ての色を系統的に配列する三次元の空間を？？？という",
+    "quizChoices": ["表面色", "物体職", "色空間", "レインボースペース" ],
+    "correctChoice": 3,
+    "quizDescription": "色立体と三属性の関係を図で確認してね"
+  },
+  {
+    "id": "063",
+    "lesson": "2",
+    "quizText": "色立体の無彩色軸を通る垂直断面図には左右一対の有彩色の面が現れるが、この同じ色相の色で占められている領域を？？？という",
+    "quizChoices": ["色相間", "等色相面", "等明度面", "等彩度面" ],
+    "correctChoice": 2,
+    "quizDescription": "この左右一対の有彩色は混色すると無彩色になる「補色」の関係になるよ"
+  },
+  {
+    "id": "064",
+    "lesson": "2",
+    "quizText": "色相環ではほぼ対向位置にあり、混色すると無彩色になる２色のことを？？？という",
+    "quizChoices": ["補色", "明清色", "暗清色", "反対色" ],
+    "correctChoice": 1,
+    "quizDescription": "「補色」は多くの色相環でほぼ対向位置にあります"
+  },
+  {
+    "id": "065",
+    "lesson": "2",
+    "quizText": "物体色の色を色相、明度、彩度の三属性によってあらわす方法に「固有色名」がある。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "固有色名は、その色が思い起こされるような物事の名前を借りた色名です"
+  },
+  {
+    "id": "066",
+    "lesson": "2",
+    "quizText": "色名による表示方法のうち、基本的な色名に簡単な修飾語を添えて表す方法を「系統色名」という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "系統色名を使うと、色空間全体を体系的に分割して色名を割り当てることができます"
+  },
+  {
+    "id": "067",
+    "lesson": "2",
+    "quizText": "表色系のうち、物体色を表すための色票集を備えたものに「XYZ表色系」がある",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "「XYZ表色系」に色票集はありません"
+  },
+  {
+    "id": "068",
+    "lesson": "2",
+    "quizText": "JISでは「色の表示方法-三属性による表示」でマンセル表色系が採用されている。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "されてるよ"
+  },
+  {
+    "id": "069",
+    "lesson": "2",
+    "quizText": "色票を系統的に配列したものを「カラーチャート」という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "「色票系」「カラーチャート」「色票集」などの用語を確認しておいてね"
+  },
+  {
+    "id": "070",
+    "lesson": "2",
+    "quizText": "文化人類学者のバーリンと言語学者のケイは、日本語を含む98の言語を調査し、普遍的な色名11語を？？？と定義した",
+    "quizChoices": ["伝統色名", "流行色名", "基本色彩語", "固有色名" ],
+    "correctChoice": 3,
+    "quizDescription": "白、黒、赤、黄、緑、青、紫、ピンク、オレンジ、茶、灰"
+  },
+  {
+    "id": "071",
+    "lesson": "2",
+    "quizText": "その色が思い起こされるような物事の名前を狩りて特定の色を表す色名を？？？といい、例として桜色、空色がある。",
+    "quizChoices": ["固有色名", "基本色名", "系統色名", "伝統色名" ],
+    "correctChoice": 1,
+    "quizDescription": "固有色名＝伝統色名、流行色名、外来色名"
+  },
+  {
+    "id": "072",
+    "lesson": "2",
+    "quizText": "JISによる物体色の系統色名を略号であらわす場合、有彩色は〔明度および彩度に関する修飾語〕-〔色相に関する修飾語〕？？？？の順に連記する。",
+    "quizChoices": ["基本色彩語", "基本色名", "固有色名", "伝統色名" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": "073",
+    "lesson": "2",
+    "quizText": "JISによる物体色の系統色名を略号であらわす場合、無彩色は？？？？？〔基本色名〕の順に連記する",
+    "quizChoices": ["色相に関する修飾語", "明度に関する修飾語", "物体色の色名", "" ],
+    "correctChoice": 2,
+    "quizDescription": "大分類「無彩色」の中の無彩色は白、黒、灰色4種の計6種"
+  },
+  {
+    "id": "074",
+    "lesson": "2",
+    "quizText": "多くの固有色名のうち、特に社会全般に共有され、産業界でも用いられている色名をJISでは？？？？として採録している。",
+    "quizChoices": ["伝統色名", "基本色名", "慣用色名", "固有色名" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": "075",
+    "lesson": "2",
+    "quizText": "「色味を帯びた無彩色」はJISの大分類では「無彩色」とみなされる",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": "076",
+    "lesson": "2",
+    "quizText": "有彩色の系統色名で、色相に関する修飾語「赤みの」は「黄」または「緑」を修飾する。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "赤・黄・緑・青・紫を色相環にしたとき、赤と隣り合っているのは黄と紫なので、緑は修飾しません。"
+  },
+  {
+    "id": "077",
+    "lesson": "2",
+    "quizText": "基本色彩語の分化過程において、白・黒・赤の次には緑・黄がくる",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "P40を確認"
+  },
+  {
+    "id": "078",
+    "lesson": "2",
+    "quizText": "アメリカで考案されたISCC-NBS系統色名法は、PCCSの色空間との対応が図られている。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "PCCSではなくマンセルです"
+  },
+  {
+    "id": "079",
+    "lesson": "2",
+    "quizText": "系統色名の中に、伝統色名、流行色名、外来色名は含まれる。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "固有色名＝伝統色名、流行色名、外来色名"
+  },
+  {
+    "id": "080",
+    "lesson": "2",
+    "quizText": "PCCSの最大の特徴は、物体表面の色を２系列で表示する？？？を採用している点である。",
+    "quizChoices": ["ISCC-NCS系統色名法", "ヒュー&トーンシステム", "調査用カラーコード", "現地調査" ],
+    "correctChoice": 2,
+    "quizDescription": "PCCSはヒュー&トーンシステム、マンセルは色の三属性だよ"
+  },
+  {
+    "id": "081",
+    "lesson": "2",
+    "quizText": "PCCSの色相と彩度の関係は？？？の法則に従っており、すべてのトーン系列で黄色が最も明るく、青紫近づくい連れて暗くなっている。",
+    "quizChoices": ["色相の自然連鎖", "知覚的等歩度", "トーンの代分類法", "" ],
+    "correctChoice": 1,
+    "quizDescription": "ナチュラルハーモニーの話と似てるね"
+  },
+  {
+    "id": "082",
+    "lesson": "2",
+    "quizText": "PCCSでは色相の分割の基本に添えた赤・黄・緑・青の対向位置の色相はその？？？？になっている",
+    "quizChoices": ["中差色相", "代表色相", "心理補色", "物理補色" ],
+    "correctChoice": 3,
+    "quizDescription": "赤・黄・緑・青を心理四原色というよ"
+  },
+  {
+    "id": "083",
+    "lesson": "2",
+    "quizText": "PCCSでは実現しえる高彩度な色の中から各色相の鮮やかさ感がそろうように純度を定めて、その彩度値を？？？としている",
+    "quizChoices": ["0S", "5S", "9S", "100S" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": "084",
+    "lesson": "2",
+    "quizText": "PCCSのトーン図では、高明度から低明度に縦に並ぶトーンは等しい？？？に設定されている。",
+    "quizChoices": ["彩度", "明度", "色相", "色温度" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": "085",
+    "lesson": "2",
+    "quizText": "PCCSの色相は、心理四原色を基礎とした12種の基本色相を定め、さらにそれぞれの中間の色を求めて合計24色相に分割している",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": "086",
+    "lesson": "2",
+    "quizText": "PCCSの明度の尺度は、光を100％反射する理想的な白の明度を0と定義している",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "黒を0、白を10と定義しているよ"
+  },
+  {
+    "id": "087",
+    "lesson": "2",
+    "quizText": "PCCSは無彩色の彩度を0、理想的な純度の彩度を9としてその間を知覚的等歩度に分割している",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "理想的な純色の値を10としてるよ"
+  },
+  {
+    "id": "088",
+    "lesson": "2",
+    "quizText": "PCCSのトーンが同じ色はどの色相でも共通した色の調子と共通したイメージを持っている",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": "089",
+    "lesson": "2",
+    "quizText": "PCCSのトーン(色調)は、色相と明度の複合概念である",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "x軸が明度、y軸が彩度の複合概念だよ"
+  },
+  {
+    "id": "090",
+    "lesson": "2",
+    "quizText": "アメリカ光学会(OSA)が知覚的均等性に修正を加えた修正マンセル表色系はJISに採用されている",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": "091",
+    "lesson": "2",
+    "quizText": "マンセル彩度は最高彩度地は15と決められており、これ以上積みあがることはない",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "今後、さらに発色性の良い顔料が開発されれば積みあがるよ"
+  },
+  {
+    "id": "092",
+    "lesson": "2",
+    "quizText": "マンセル表色系の色立体はすべての色相の最高彩度値が等しいので、上から見た形は正円である",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "色相により最高彩度値が異なるため、でこぼこしていて、上から見た形は正円にならないよ(PCCSは卵みたいな形)"
+  },
+  {
+    "id": "093",
+    "lesson": "2",
+    "quizText": "マンセル表色系の色相、明度、彩度はいずれも知覚的均等性を目指して尺度化されている。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "アメリカ光学会(OSA)が知覚的均等性に修正したものが現在使われているよ"
+  },
+  {
+    "id": "094",
+    "lesson": "2",
+    "quizText": "マンセル表色系の20色相環を作るときは、基本10色相に5と10の数値が付いた色相を選べばよい",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": "095",
+    "lesson": "2",
+    "quizText": "マンセル表色系はアメリカの画家、美術教育者であるマンセルが創案した？？？で色を表すカラーオーダーシステムである",
+    "quizChoices": ["ヒュー&トーンシステム", "色の三属性", "心理四原色", "調査用カラーコード" ],
+    "correctChoice": 2,
+    "quizDescription": "マンセルは三属性、PCCSはヒュー&トーンシステムだよ"
+  },
+  {
+    "id": "096",
+    "lesson": "2",
+    "quizText": "マンセル表色系の色相は基本10色相をさらに10棟分して時計回りに1から10の数値を当てて合計100色相としているが、その中で？？？の数値をあたえられている色が基本10色相の代表色相である。",
+    "quizChoices": [1, 5, 10, 2 ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": "097",
+    "lesson": "2",
+    "quizText": "マンセル表色系は、色相によって最高彩度の値が異なり、また色相ごとに？？？の明度も異なるため、横から見た色立体は非対称で凹凸の激しい複雑な形となっている。",
+    "quizChoices": ["補色", "三原色", "純色", "心理四原色" ],
+    "correctChoice": 3,
+    "quizDescription": "マンセルはでこぼこ、PCCSは卵みたいな形をしているよ"
+  },
+  {
+    "id": "098",
+    "lesson": "2",
+    "quizText": "マンセル表色系の彩度の尺度は、等しい明るさを持つ無彩色の彩度を？？？としている",
+    "quizChoices": [0, 1, 5, 1 ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": "099",
+    "lesson": "2",
+    "quizText": "マンセル表色系で色相が5R明度が4彩度が14の場合の表記は次のうちどれか",
+    "quizChoices": ["5:R-4-14", "5R4/14", "v5", "5R:4:14" ],
+    "correctChoice": 2,
+    "quizDescription": "/つかうよ"
+  },
+  {
+    "id": 100,
+    "lesson": "3",
+    "quizText": "次の中から中性色系の配色を選べ(本誌P.92）",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 3,
+    "quizDescription": "黄緑、緑、紫など"
+  },
+  {
+    "id": 101,
+    "lesson": "3",
+    "quizText": "次の中から同一色系の配色を選べ(本誌P.92）",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 102,
+    "lesson": "3",
+    "quizText": "次の中から類似色系の配色を選べ(本誌P.92）",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 103,
+    "lesson": "3",
+    "quizText": "次の中から中差色系の配色を選べ(本誌P.92）",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 104,
+    "lesson": "3",
+    "quizText": "次の中から対照色系の配色を選べ(本誌P.92）",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 105,
+    "lesson": "3",
+    "quizText": "アメリカの色彩学者ジャッドによる「親近性の原理」とは「色が明瞭に見える配色は調和する」というものである",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "「親和性の原理」とは、私たちになじみのある、見慣れた色は調和するというもの。"
+  },
+  {
+    "id": 106,
+    "lesson": "3",
+    "quizText": "「色相環」とは虹の７色に赤紫を加えて環状に並べたものである",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": ""
+  },
+  {
+    "id": 107,
+    "lesson": "3",
+    "quizText": "明度差が小さい配色は遠くからでも見やすく、視認性の高い配色である。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "明度差が大きいほうが視認性高いです"
+  },
+  {
+    "id": 108,
+    "lesson": "3",
+    "quizText": "同一明度の色を使いながら色の見分けを助けるために使われる手法に「セパレーション」がある",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 109,
+    "lesson": "3",
+    "quizText": "多くの色彩調和論に共通している考え方に「統一性と変化のバランスが取れている配色は調和する」というものがある",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 110,
+    "lesson": "3",
+    "quizText": "次の中から対照明度の配色を選べ(P.93)\n対照明度の配色は非常に明快な配色である。",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 111,
+    "lesson": "3",
+    "quizText": "次の中から同一彩度の配色を選べ(P.93)\n同一彩度の配色は配色調和が得やすい。",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 112,
+    "lesson": "3",
+    "quizText": "次の中から対照彩度の配色を選べ(P.93)\n対照彩度の配色は派手で目立ち、活動的なイメージが強くなる。",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 113,
+    "lesson": "3",
+    "quizText": "次の中から明清色調の配色を選べ(P.93)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 1,
+    "quizDescription": "明清色調＝b,lt,pトーン"
+  },
+  {
+    "id": 114,
+    "lesson": "3",
+    "quizText": "次の中から濁色系の類似トーンの配色を選べ(P.93)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 3,
+    "quizDescription": "濁色系＝st,d,ltg,gトーン"
+  },
+  {
+    "id": 115,
+    "lesson": "3",
+    "quizText": "無彩色動詞の配色では、明度差を大きく取るとソフトで優しい感じの配色になる",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "明度差が大きいと色の境界がはっきりとし、色や柄が明瞭になります"
+  },
+  {
+    "id": 116,
+    "lesson": "3",
+    "quizText": "隣接・類似色相の配色では、ナチュラルハーモニーに留意すると違和感のない配色となる",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "ナチュラルハーモニー＝「明るい部分は黄みに、暗い部分は青紫みに」  反対なのはコンプレックスカラー"
+  },
+  {
+    "id": 117,
+    "lesson": "3",
+    "quizText": "コンプレックスカラー配色を作るには、暗い色の色相を黄み方向に取ると良い",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "コンプレックスカラー ←→ ナチュラルハーモニー"
+  },
+  {
+    "id": 118,
+    "lesson": "3",
+    "quizText": "色相環に内接する正方形の各頂点が示す４色配色を「テトラード」という。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 119,
+    "lesson": "3",
+    "quizText": "配色と面積のバランスでは大面積を占め、配色の土台となる色を「アソートカラー」という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "土台は「ベースカラー」"
+  },
+  {
+    "id": 120,
+    "lesson": "3",
+    "quizText": "次の中からドミナントカラー配色を選べ(P.94)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 121,
+    "lesson": "3",
+    "quizText": "次の中からドミナントトーン配色を選べ(P.94)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 122,
+    "lesson": "3",
+    "quizText": "次の中からトライアドの配色を選べ(P.94)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 123,
+    "lesson": "3",
+    "quizText": "次の中からスプリットコンプリメンタリーの配色を選べ(P.94)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 124,
+    "lesson": "3",
+    "quizText": "次の中からダイアードの配色を選べ(P.94)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 125,
+    "lesson": "3",
+    "quizText": "次の中から明清色系のグラデーションを選べ(P.95)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 126,
+    "lesson": "3",
+    "quizText": "次の中から中彩度トーンのグラデーションを選べ(P.95)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 127,
+    "lesson": "3",
+    "quizText": "次の中から同一トーンの類似色相のグラデーションを選べ(P.95)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 128,
+    "lesson": "3",
+    "quizText": "次の中からナチュラルハーモニーの色相グラデーションを選べ(P.95)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 129,
+    "lesson": "3",
+    "quizText": "次の中からコンプレックスカラー配色を選べ(P.95)",
+    "quizChoices": ["準備中...", "準備中...", "準備中...", "準備中..." ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 130,
+    "lesson": "3",
+    "quizText": "v2とv14の配色のように、明度が同一で高彩度の補色配色を見ると、「グレア」という現象が起こる",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 131,
+    "lesson": "3",
+    "quizText": "「トライアド」の３色配色に、白と黒を加えた５色配色は「テトラード」という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "ペンタードと言います"
+  },
+  {
+    "id": 132,
+    "lesson": "3",
+    "quizText": "小面積の色で、全体を引き締めたり、変化を与えたりする色を「セパレーションカラー」という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "アクセントカラーです"
+  },
+  {
+    "id": 133,
+    "lesson": "3",
+    "quizText": "日本では鎌倉時代に和様の分化が発展し、四季折々の自然の色を取り入れた「襲色目」が生まれた",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "和様の分化が発展したのは平安時代です"
+  },
+  {
+    "id": 134,
+    "lesson": "3",
+    "quizText": "平安時代の衣装の色で「織色」とは。染色意図と経意図と緯意図で織り上げて完成したものを指す",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 135,
+    "lesson": "4",
+    "quizText": "磁場と電磁によって生じるエネルギーを電磁波というが、人が色として感じることが出来る電磁波を？？？という。",
+    "quizChoices": ["紫外線", "可視光線", "赤外線", "スペシウム光線" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 136,
+    "lesson": "4",
+    "quizText": "ある均一な物質の中ではまっすぐに進んでいた光が、別の均一な物質に入ると進行方向が曲がることを？？？？という。",
+    "quizChoices": ["正反射", "吸収", "屈折", "" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 137,
+    "lesson": "4",
+    "quizText": "光を波長の順に、単色光ごとの量を並べて表示したものを？？？という",
+    "quizChoices": ["スペクトル", "グレア", "標準イルミナント", "色相環" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 138,
+    "lesson": "4",
+    "quizText": "波長と色の関係では、波長の短い380nm付近では紫に見え、470nm付近は青、580nm付近では？？？、650nm以上は赤に見える",
+    "quizChoices": ["緑", "黄色", "橙", "黄" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 139,
+    "lesson": "4",
+    "quizText": "コマのように、２つ以上の色を高速に回転した場合に１つの色が見えるが、これを？？？？という。",
+    "quizChoices": ["加法混色", "併置中間混色", "継時中間混色", "減法混色" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 140,
+    "lesson": "4",
+    "quizText": "正弦波の中の、ある山の頂点から次の山の頂点までの長さを波長という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 141,
+    "lesson": "4",
+    "quizText": "サーモグラフィは、紫外線の量を見えるようにして温度の分布を表したものである",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 142,
+    "lesson": "4",
+    "quizText": "顔料も染料も水や油に溶ける色材である",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 143,
+    "lesson": "4",
+    "quizText": "同じプリンターで印刷すれば、どんな用紙に印刷しても、その鮮明さは同じである。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 144,
+    "lesson": "4",
+    "quizText": "中間混色は人間の目の中で起こる混色である",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 145,
+    "lesson": "4",
+    "quizText": "私たちが青空を見るときは、？？？された短波長側の光を見ていることになる。",
+    "quizChoices": ["散乱", "分散", "干渉", "" ],
+    "correctChoice": 1,
+    "quizDescription": "レイリー散乱"
+  },
+  {
+    "id": 146,
+    "lesson": "4",
+    "quizText": "物体が熱を電磁波として放射する原理を利用した人工光源に？？？がある",
+    "quizChoices": ["LED", "蛍光ランプ", "白熱電球", "" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 147,
+    "lesson": "4",
+    "quizText": "演色性が強く作用するのは？？？色の時が多い",
+    "quizChoices": ["彩度が高い", "彩度が低い", "蛍光", "" ],
+    "correctChoice": 2,
+    "quizDescription": "演色性＝証明甲が物体の色の見えに影響を与える光源の性質のこと。"
+  },
+  {
+    "id": 148,
+    "lesson": "4",
+    "quizText": "光色は、色温度が低いほうから高いほうへ？？？と変化する",
+    "quizChoices": ["赤み⇒白色⇒青み", "黄み⇒赤み⇒白色", "青み⇒黄み⇒赤み", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 149,
+    "lesson": "4",
+    "quizText": "一般的な照明環境として、居間での読書には？？？ルクスが基準とされている",
+    "quizChoices": ["200から300", "300から700", "800から1000", "" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 150,
+    "lesson": "4",
+    "quizText": "普段見える虹(主虹)の外側に、色の順番が主虹と逆の順番でもう1つの虹(副虹)が見えることがあり、これを二重虹という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 151,
+    "lesson": "4",
+    "quizText": "シャボン玉のように、光の位相が重なり、強め合ったり弱めあったりして虹色に見える現象を干渉という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 152,
+    "lesson": "4",
+    "quizText": "蛍光ランプは、半導体の中で電子のエネルギーを光エネルギーに変換して光を発する電界発光を原理としている",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "蛍光ランプは放電発光が原理。電界発光は白色LEDの話。"
+  },
+  {
+    "id": 153,
+    "lesson": "4",
+    "quizText": "恒常性は、顔色のように普段見慣れて、その色が記憶に強く残っている場合に働くことが多い",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 154,
+    "lesson": "4",
+    "quizText": "演色性とは、照明の照度を上げることにより、色をより鮮やかに見せることをいう",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "演色性とは性質のこと。"
+  },
+  {
+    "id": 155,
+    "lesson": "5",
+    "quizText": "眼はカメラと同じような構造になっており、？？？は、カメラのレンズに相当する",
+    "quizChoices": ["水晶体", "網膜", "視細胞", "" ],
+    "correctChoice": 1,
+    "quizDescription": ""
+  },
+  {
+    "id": 156,
+    "lesson": "5",
+    "quizText": "網膜の？？？には錐体しかなく、狭い部分に密集して配置されている",
+    "quizChoices": ["盲点", "光彩", "中心窩", "外縁部" ],
+    "correctChoice": 3,
+    "quizDescription": "中心窩が正解。\n黄斑と呼ばれる領域内にある中心窩には錐体がある。付近に桿体もある。\n錐体は、明るいところで機能し、色を識別する機能がある。\n桿体は、暗いところで機能し、色の明暗を識別スつ機能がある。"
+  },
+  {
+    "id": 157,
+    "lesson": "5",
+    "quizText": "眼の内側にある視神経線維は、脳に情報を伝えるために目から出る必要があり、その出口にあたるのが？？？？で、この部位には視細胞がないため、盲点と呼ばれる。",
+    "quizChoices": ["毛様体", "虹彩", "視神経乳頭", "視神経導入口" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 158,
+    "lesson": "5",
+    "quizText": "左右の眼の左側の情報は左側の？？？、右側の情報は右側の？？？を経由して、脳の後ろ側にある視覚野に伝えられる",
+    "quizChoices": ["色素上皮", "外側膝状態", "神経節細胞", "視神経導入口" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 159,
+    "lesson": "5",
+    "quizText": "視野全体が均一の光(ひとつの光)でおおわれてしまうと、すべては？？？にしか見えなくなってしまう",
+    "quizChoices": ["赤", "青", "灰色", "その色" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 160,
+    "lesson": "5",
+    "quizText": "杆体は明るいところで働き、色を識別する",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 161,
+    "lesson": "5",
+    "quizText": "眼では網膜という不透明な膜が変化して、中心の瞳孔の面積を変えている",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "瞳孔の面積を変え、眼に入る光の量を調整するのは、虹彩です"
+  },
+  {
+    "id": 162,
+    "lesson": "5",
+    "quizText": "多くの人は３種類の錐体を持っているが、すべての種類を持たない場合、あるいはいずれかの感度が低い場合を色覚異常といい、色の見えが変わってくる",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 163,
+    "lesson": "5",
+    "quizText": "外側膝状態の小細胞経路では、明るさの情報を使って動きの情報を伝えている",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "小細胞経路は色と形の情報を伝え、大細胞経路は動きの情報を伝えます"
+  },
+  {
+    "id": 164,
+    "lesson": "5",
+    "quizText": "Ｌ錐体またはＭ錐体を持たない人は、赤が暗く見えてしまうので、赤い文字を使う際には注意が必要である。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 165,
+    "lesson": "5",
+    "quizText": "ある色が、ほかの色の影響で、双方の色の違いが際立つように見えが変化することを？？？？という",
+    "quizChoices": ["面積効果", "対比効果", "同化効果", "" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 166,
+    "lesson": "5",
+    "quizText": "明度が同じ色が隣り合った時、両者の輪郭があいまいになり、形がみえにくくなることを？？？という",
+    "quizChoices": ["グラデーション", "ハント効果", "リープマン効果", "" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 167,
+    "lesson": "5",
+    "quizText": "要請残像は、残像が現れる場所が？？？？ときに現れる",
+    "quizChoices": ["暗く、はじめに色を見ている時間が短い", "明るく、はじめに色を見ている時間が長い", "近いか、初めに見ていた色が大きい", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 168,
+    "lesson": "5",
+    "quizText": "色の軽重感は、？？？？と関係が深い",
+    "quizChoices": ["色相", "明度", "彩度", "" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 169,
+    "lesson": "5",
+    "quizText": "SD法によると、色のイメージの構成要素は、活動性、力量性、？？？？の３つである",
+    "quizChoices": ["明瞭性", "神秘性", "評価性", "" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 170,
+    "lesson": "5",
+    "quizText": "中明度の灰色は大面積の白に囲まれると、より明るく見える",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "中程度の灰色は、白に囲まれると、その違いが大きくなり、より暗い灰色に見えます"
+  },
+  {
+    "id": 171,
+    "lesson": "5",
+    "quizText": "同じ色で小さな面積のものと大きな面積のものを比べると、大きな面積のものは明度と彩度が下がって見える",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "大きい面積の色は小面積で見るより、明度と彩度が高く見えます"
+  },
+  {
+    "id": 172,
+    "lesson": "5",
+    "quizText": "明るい場所から暗い部屋に入ると、見えるようになるまで時間がかかるが、これは錐体が働きだすまでに時間がかかるからである。",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "暗い場所では杆体が働きます"
+  },
+  {
+    "id": 173,
+    "lesson": "5",
+    "quizText": "赤は暖色だが、再度が下がると暖かさが減少するのは、無彩色は冷たく感じるからである",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 174,
+    "lesson": "5",
+    "quizText": "重い-軽い、硬い-柔らかい、強い-弱い、などはＳＤ法では活動性に分類される",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "力量性に分類"
+  },
+  {
+    "id": 175,
+    "lesson": "6",
+    "quizText": "JAFCAの調査によれば、レディースファンション製品の春夏物は、紺・黒・グレー・白・？？？の合計が売り上げの70％を超えている",
+    "quizChoices": ["ベージュ・アイボリー", "クリーム・サックス", "キャメル・ワイン", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 176,
+    "lesson": "6",
+    "quizText": "ファッション製品の色に関して、購入者の判断基準は①自分に似合うかどうか②自分の手持ちのファッション製品とのコーディネートはうまくいくか③着ていくときの？？？に対する適切さはどうか、④トレンドを取り入れるか否か、などがある",
+    "quizChoices": ["ＶＭＤ", "ＴＰＯ", "ＪＩＳ", "ＶＥＰ" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 177,
+    "lesson": "6",
+    "quizText": "現代の人々は、自然を大切にし、健康な暮らしの継続を志向する「？？？？？？」という考え方や、ゆったりとした「スロー」な生活への意識が高く、自然エネルギーに対する注目度も高い",
+    "quizChoices": ["シンプル", "ＬＯＨＡＳ", "ヴィンテージ", "ヒュッゲ" ],
+    "correctChoice": 2,
+    "quizDescription": "LOHAS＝Lifestyles of Health and Sustainability"
+  },
+  {
+    "id": 178,
+    "lesson": "6",
+    "quizText": "企業活動にも、地球の自然環境に配慮しながら健全な生活の持続可能な、いわゆる？？？？？なものづくりの姿勢が求められている。",
+    "quizChoices": ["ハイテンポ", "スローテンポ", "サステナブル", "アップテンポ" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 179,
+    "lesson": "6",
+    "quizText": "今や生態学を意味する「？？？？」という言葉は、自然環境を大切にするという意識の代名詞となっている",
+    "quizChoices": ["バイオロジー", "サイコロジー", "エコロジー", "アイボリー" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 180,
+    "lesson": "6",
+    "quizText": "商品のコーディネーションや組み合わせなどを視覚的にわかりやすく展示する方法をビジュアルプレゼンテーション(VP)という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 181,
+    "lesson": "6",
+    "quizText": "ファッション製品を提供する際、トレンドを取り入れていけば、過去の製品、ほかの製品との色の関係は考えなくてもよい",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "そんなわけない"
+  },
+  {
+    "id": 182,
+    "lesson": "6",
+    "quizText": "色に関する情報の収集、分析には、色相とトーンで構成したカラートーンがよく使われる",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 183,
+    "lesson": "6",
+    "quizText": "インテリア製品の開発で、高齢者がいる家族をターゲットにする場合は、青系の色を多く使うことを心がける必要がある",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "高齢者は青系の色に対する感度が落ちるので、使用の際は十分な注意が必要"
+  },
+  {
+    "id": 184,
+    "lesson": "6",
+    "quizText": "JAFCAによれば、ファッション製品、インテリア製品、家電、自転車など多くの製品は、時代や景気によってダイナミックに色が変化する",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 185,
+    "lesson": "6",
+    "quizText": "他の人と同じようなものを志向する人たちを？？？？と呼ぶ",
+    "quizChoices": ["同調層", "近代層", "保守層", "経営層" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 186,
+    "lesson": "6",
+    "quizText": "保守層の人たちには？？？と呼ばれる売れ筋色で構成したカラーパレットを準備する",
+    "quizChoices": ["ベーシックカラー", "アソートカラー", "クラシックカラー", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 187,
+    "lesson": "6",
+    "quizText": "最新のデザインを好む志向の人たちを？？？？という",
+    "quizChoices": ["先進層", "現代層", "前進層", "経営層" ],
+    "correctChoice": 1,
+    "quizDescription": "--"
+  },
+  {
+    "id": 188,
+    "lesson": "6",
+    "quizText": "先進層の人たちは？？？？を多く入れたカラーパレットを準備する",
+    "quizChoices": ["アクセントカラー", "マルチカラー", "トレンドカラー", "" ],
+    "correctChoice": 3,
+    "quizDescription": "-"
+  },
+  {
+    "id": 189,
+    "lesson": "6",
+    "quizText": "ファンション業界では、人の目を引き、その製品の前に人々の足を運ばせる力がある色を？？？？という",
+    "quizChoices": ["誘目色", "見せ筋色", "吸収色", "" ],
+    "correctChoice": 2,
+    "quizDescription": "-"
+  },
+  {
+    "id": 190,
+    "lesson": "6",
+    "quizText": "製品の企画で、現状の把握をする際は、先ず、どのようなデザインが売れているのかを調べ、「売れ筋色」と「その他の色」に大きく分ける",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
+  },
+  {
+    "id": 191,
+    "lesson": "6",
+    "quizText": "ファッション業界では、人の目を引き、その製品の前に人々の足を運ばせる力のある色のことを「量を売る色」という",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "「量を売る色」＝売れる色のこと。量は売れなくても人の目を引き付け、新しさという情報性のある色は「質を売る色」という"
+  },
+  {
+    "id": 192,
+    "lesson": "6",
+    "quizText": "多くの消費者の心に訴える色は、自然環境の色や自然素材の色しかない",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "そんなわけない"
+  },
+  {
+    "id": 193,
+    "lesson": "6",
+    "quizText": "自然の現物の色と、一旦記憶として蓄積された色とでは異なることがある、記憶の色は一般的に実際の色よりも彩度が低いことが多い",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 2,
+    "quizDescription": "高くなることが多いといわれる"
+  },
+  {
+    "id": 194,
+    "lesson": "6",
+    "quizText": "デザイン業界で多く行われている色の発送方法に、自分がイメージしたものを、写真などを使ってカラーコラージュの形式でつくり、カラーパレットを構成する方法がある",
+    "quizChoices": ["〇", "×", "", "" ],
+    "correctChoice": 1,
+    "quizDescription": "-"
   }
 ]
