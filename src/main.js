@@ -7,7 +7,6 @@ const addJudgeEvent = ( list ) => {
   for( let i = 0 ; i < list.length; i++){
     console.log(`i: ${i}`)
     console.log(`n: ${quizData_correctChoice}`)
-    
     list[i].addEventListener('click', () => {
       if( i == quizData_correctChoice ){
         console.log("正解!")
@@ -16,11 +15,15 @@ const addJudgeEvent = ( list ) => {
         console.log(`ざんねん 正解は${quizData_correctChoice}`)
         reflesh_incorrectTimes()
       }
+      displayAnswers(button_list)
       view_quizDescription.classList = "description_display"
       utils.makeDisabelAllChoiceButton( button_list )
     })
     console.log(button_list)
   }
+}
+const displayAnswers = ( buttons ) => { //void
+  console.log(quizData_correctChoice)
 }
 
 // const SRC_FILE = readFileSync("./quiz.json", 'utf8')
