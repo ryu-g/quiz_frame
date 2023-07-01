@@ -36,7 +36,7 @@ exports.shuffle = (list) =>{
 //すべてのボタンをdisableにする
 exports.makeDisabelAllChoiceButton = ( button_list ) => {
   button_list.forEach( button => {
-    console.log(`button_list is ${ button.disabled }`)
+    // console.log(`button_list is ${ button.disabled }`)
     button.setAttribute("disabled", true)
   })
 }
@@ -44,7 +44,7 @@ exports.makeDisabelAllChoiceButton = ( button_list ) => {
 //すべてのボタンをableにする
 exports.makeAbelAllChoiceButton = ( button_list ) => {
   button_list.forEach( button => {
-    console.log(`button_list is ${ button }`)
+    // console.log(`button_list is ${ button }`)
     if(button.disabled === true)
       button.removeAttribute("disabled")
   })
