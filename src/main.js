@@ -36,7 +36,7 @@ const displayAnswers = ( buttons, clicked, qd_correct ) => { //void
 
 
 // const SRC_FILE = readFileSync("./quiz.json", 'utf8')
-const SRC_FILE = readFileSync("./src/quiz.json", 'utf8')
+const SRC_FILE = readFileSync("./src/quiz_new.json", 'utf8')
 
 const data = JSON.parse(SRC_FILE)
 // const questionNumbers = utils.generateNumberList(data)
@@ -68,7 +68,7 @@ let quizData_quizText = data[quizID].quizText
 let quizData_correctTimes = 0
 
 const reflesh_quiz = () =>{
-  quizID = Math.floor(Math.random()*193)
+  quizID = Math.floor(Math.random()*308)
   console.log(`quizID is ${quizID}`)
   quizData_id = data[quizID].id
   quizData_genre = data[quizID].lesson
