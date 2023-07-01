@@ -77,7 +77,7 @@ const reflesh_quiz = () =>{
   quizData_quizDescription = data[quizID].quizDescription
   quizData_quizText = data[quizID].quizText
   view_quizID.innerText = `id ${quizData_id}`
-  view_genre.innerText = `lesson ${quizData_genre}`
+  view_genre.innerText = `${quizData_genre}`
   view_quizText.innerText = quizData_quizText
   choices_0.innerText = quizData_choices[0] ?? "-"
   choices_1.innerText = quizData_choices[1] ?? "-"
