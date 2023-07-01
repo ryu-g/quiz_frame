@@ -5,21 +5,21 @@ const utils = require("./utils.js")
 //選択肢へのクリックイベント追加用
 const addJudgeEvent = ( list ) => { 
   for( let i = 0 ; i < list.length; i++){
-    console.log(`i: ${i}`)
-    console.log(`n: ${quizData_correctChoice}`)
+    // console.log(`i: ${i}`)
+    // console.log(`n: ${quizData_correctChoice}`)
     list[i].addEventListener('click', () => {
       if( i == quizData_correctChoice ){
-        console.log("正解!")
+        // console.log("正解!")
         reflesh_correctTimes()
       }else{
-        console.log(`ざんねん 正解は${quizData_correctChoice}`)
+        // console.log(`ざんねん 正解は${quizData_correctChoice}`)
         reflesh_incorrectTimes()
       }
       displayAnswers(button_list, i, quizData_correctChoice )
       view_quizDescription.classList = "description_display"
       utils.makeDisabelAllChoiceButton( button_list )
     })
-    console.log(button_list)
+    // console.log(button_list)
   }
 }
 const displayAnswers = ( buttons, clicked, qd_correct ) => { //void
@@ -69,7 +69,7 @@ let quizData_correctTimes = 0
 
 const reflesh_quiz = () =>{
   quizID = Math.floor(Math.random()*308)
-  console.log(`quizID is ${quizID}`)
+  // console.log(`quizID is ${quizID}`)
   quizData_id = data[quizID].id
   quizData_genre = data[quizID].lesson
   quizData_correctChoice = Number(data[quizID].correctChoice) - 1
@@ -95,7 +95,7 @@ const reflesh_quiz = () =>{
 
 const reflesh_correctTimes = () => {
   view_correnctTimes.innerText = `正解数 : ${++quizData_correctTimes}`
-  console.log("正解数を増やします")
+  // console.log("正解数を増やします")
   reflesh_correctRatio(quizData_correctTimes, quizData_incorrectTimes)
 }
 
@@ -121,8 +121,8 @@ promise.then(( resolve ) => {
 const nextQuizButton = document.getElementById("nextQuiz")
 nextQuizButton.addEventListener('click', ()=>{
   reflesh_quiz()
-  console.log(`quiz id is ${quizID}`)
-  console.log("cliced reflesh button")
+  // console.log(`quiz id is ${quizID}`)
+  // console.log("cliced reflesh button")
 })
 
 reflesh_quiz()
