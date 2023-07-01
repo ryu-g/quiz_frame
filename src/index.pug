@@ -8,16 +8,11 @@ html(lang="en")
     title 問題
   body
     section.quizView
-      h3 クイズID : 
+      p 
         span#quizID 000
-      h3 テーマ : 
         span#quizGenre 000
       h3 問題
       p#quizText これはクイズの問題文です
-      #answerInfo
-        p#correnctTimes 正解数 : 0
-        p#incorrenctTimes 不正解数 : 0
-        p#correctRatio 正解率 : 0 %
       ol#quizChoices
         button#choice_0 loading...
         button#choice_1 loading...
@@ -25,9 +20,11 @@ html(lang="en")
         button#choice_3 loading...
       h3 説明欄
       p#quizDescription.description_hidden loading...
-      
       button#nextQuiz 次のクイズ
-
+      #answerInfo
+        p#correnctTimes 正解数 : 0
+        p#incorrenctTimes 不正解数 : 0
+        p#correctRatio 正解率 : 0 %
     pre#viewer 
     script(type = "module" src = "./main.js")
     
