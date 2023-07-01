@@ -71,13 +71,13 @@ const reflesh_quiz = () =>{
   quizID = Math.floor(Math.random()*193)
   console.log(`quizID is ${quizID}`)
   quizData_id = data[quizID].id
-  quizData_genre = data[quizID].genre
+  quizData_genre = data[quizID].lesson
   quizData_correctChoice = Number(data[quizID].correctChoice) - 1
   quizData_choices = data[quizID].quizChoices
   quizData_quizDescription = data[quizID].quizDescription
   quizData_quizText = data[quizID].quizText
   view_quizID.innerText = `id ${quizData_id}`
-  view_genre.innerText = `Genre quizData_genre`
+  view_genre.innerText = `lesson ${quizData_genre}`
   view_quizText.innerText = quizData_quizText
   choices_0.innerText = quizData_choices[0] ?? "-"
   choices_1.innerText = quizData_choices[1] ?? "-"
