@@ -11,10 +11,12 @@ body
     margin: 5px 0
   #answerInfo
     display: grid
-    grid-template-columns: 100px 100px
+    grid-template-columns: 100px 100px 100px
   #correnctTimes
     font-size: 12px
   #incorrenctTimes
+    font-size: 12px
+  #correctRatio
     font-size: 12px
   #quizChoices
     display: flex
@@ -22,9 +24,15 @@ body
     button
       height: 40px
     .correct
-      border: solid 2px #229922
+      // border: solid 4px #229922
+      border: none
+      background-color: lightgreen
     .incorrect
-      border: solid 2px #992222
+      // border: solid 4px #992222
+      border: none
+      background-color: pink
+    .clicked
+      border: 2px dashed #6b2c0b
   .description_hidden
     display: none
   .description_display
