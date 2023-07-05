@@ -4,10 +4,23 @@ html
   font-family: sans-serif
 
 body
-  width: 80%
+  width: 95%
   margin: 0 auto
+  section
+    background-color: #444
+    padding: 20px
+    margin: 10px
   h3
-    margin-bottom: 5px
+    margin: 0
+  #quiz_metaInfo
+    margin: 0 0 15px 0
+    span
+      margin-right:5px
+      padding: 5px
+      font-size: 12px
+      border: 1px solid #fff
+      border-radius: 5px
+
   #quizText
     margin:0
   ol
@@ -15,24 +28,12 @@ body
   button
     margin: 5px 0
     border-radius: 0
-  span
-    margin-right:5px
-    padding: 5px
-    font-size: 12px
-    border: 1px solid #fff
-    border-radius: 5px
-  #answerInfo
-    display: grid
-    grid-template-columns: 100px 100px 100px
-  #correnctTimes
-    font-size: 12px
-  #incorrenctTimes
-    font-size: 12px
-  #correctRatio
-    font-size: 12px
+    border: none
+
   #quizChoices
     display: flex
     flex-flow: column
+    margin-bottom: 0
     button
       height: 40px
     .correct
@@ -51,3 +52,13 @@ body
     width:100%
     height: 40px
     align-content: center
+
+  #answerInfo
+    display: grid
+    grid-template-columns: 100px 100px 100px
+  #correnctTimes
+    font-size: 12px
+  #incorrenctTimes
+    font-size: 12px
+  #correctRatio
+    font-size: 12px

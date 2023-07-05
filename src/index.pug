@@ -6,9 +6,10 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title 問題
+
   body
     section.quizView
-      p 
+      p#quiz_metaInfo
         span#quizID 000
         span#quizGenre 000
       h3 問題
@@ -18,13 +19,14 @@ html(lang="en")
         button#choice_1 loading...
         button#choice_2 loading...
         button#choice_3 loading...
+      
+    section.explain
       h3 説明欄
       p#quizDescription.description_hidden loading...
       button#nextQuiz 次のクイズ
-      #answerInfo
-        p#correnctTimes 正解数 : 0
-        p#incorrenctTimes 不正解数 : 0
-        p#correctRatio 正解率 : 0 %
-    pre#viewer 
-    script(type = "module" src = "./main.js")
     
+    section#answerInfo.answer_log
+      p#correnctTimes 正解数 : 0
+      p#incorrenctTimes 不正解数 : 0
+      p#correctRatio 正解率 : 0 %
+    script(type = "module" src = "./main.js")
