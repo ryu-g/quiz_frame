@@ -20,6 +20,7 @@ const addJudgeEvent = ( list ) => {
       utils.makeDisabelAllChoiceButton( button_list )
     })
     // console.log(button_list)
+    nextQuizButton.removeAttribute("disabled")
   }
 }
 const displayAnswers = ( buttons, clicked, qd_correct ) => { //void
@@ -67,32 +68,6 @@ let quizData_quizDescription = data[quizID].quizDescription
 let quizData_quizText = data[quizID].quizText
 let quizData_correctTimes = 0
 
-const reflesh_quiz = () =>{
-  quizID = Math.floor(Math.random()*308)
-  // console.log(`quizID is ${quizID}`)
-  quizData_id = data[quizID].id
-  quizData_genre = data[quizID].lesson
-  quizData_correctChoice = Number(data[quizID].correctChoice) - 1
-  quizData_choices = data[quizID].quizChoices
-  quizData_quizDescription = data[quizID].quizDescription
-  quizData_quizText = data[quizID].quizText
-  view_quizID.innerText = `id ${quizData_id}`
-  view_genre.innerText = `${quizData_genre}`
-  view_quizText.innerText = quizData_quizText
-  choices_0.innerText = quizData_choices[0] ?? "-"
-  choices_1.innerText = quizData_choices[1] ?? "-"
-  choices_2.innerText = quizData_choices[2] ?? "-"
-  choices_3.innerText = quizData_choices[3] ?? "-"
-  choices_0.classList = ""
-  choices_1.classList = ""
-  choices_2.classList = ""
-  choices_3.classList = ""
-  view_quizDescription.innerText = quizData_quizDescription
-  choiceButtons = [choices_0, choices_1, choices_2, choices_3]
-  utils.makeAbelAllChoiceButton(choiceButtons)
-  view_quizDescription.classList = "description_hidden"
-}
-
 const reflesh_correctTimes = () => {
   view_correnctTimes.innerText = `正解数 : ${++quizData_correctTimes}`
   // console.log("正解数を増やします")
@@ -124,5 +99,31 @@ nextQuizButton.addEventListener('click', ()=>{
   // console.log(`quiz id is ${quizID}`)
   // console.log("cliced reflesh button")
 })
+
+const reflesh_quiz = () =>{
+  quizID = Math.floor(Math.random()*308)
+  // console.log(`quizID is ${quizID}`)
+  quizData_id = data[quizID].id
+  quizData_genre = data[quizID].lesson
+  quizData_correctChoice = Number(data[quizID].correctChoice) - 1
+  quizData_choices = data[quizID].quizChoices
+  quizData_quizDescription = data[quizID].quizDescription
+  quizData_quizText = data[quizID].quizText
+  view_quizID.innerText = `id ${quizData_id}`
+  view_genre.innerText = `${quizData_genre}`
+  view_quizText.innerText = quizData_quizText
+  choices_0.innerText = quizData_choices[0] ?? "-"
+  choices_1.innerText = quizData_choices[1] ?? "-"
+  choices_2.innerText = quizData_choices[2] ?? "-"
+  choices_3.innerText = quizData_choices[3] ?? "-"
+  choices_0.classList = ""
+  choices_1.classList = ""
+  choices_2.classList = ""
+  choices_3.classList = ""
+  view_quizDescription.innerText = quizData_quizDescription
+  choiceButtons = [choices_0, choices_1, choices_2, choices_3]
+  utils.makeAbelAllChoiceButton(choiceButtons)
+  view_quizDescription.classList = "description_hidden"
+}
 
 reflesh_quiz()
